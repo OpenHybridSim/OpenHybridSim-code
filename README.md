@@ -2,7 +2,7 @@
 
 OpenHybridSim is the first-ever, open source tool for EMT and phasor domain hybrid simulation. It is developed by Qiuhua Huang from Arizona State University (ASU), USA.
 
-This is the source code part of the OpenHybridSim project, for the tool version (released as a jar lib), please refer to :
+This is the source code part of the OpenHybridSim project. For the released tool (released as a jar lib), please refer to :
 https://github.com/OpenHybridSim/Tool-release
 
 ##Installation
