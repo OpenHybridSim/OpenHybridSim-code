@@ -15,7 +15,7 @@ Once these dependent libs are check out, the following steps are recommended:
 
 3) check out or download this project <OpenHybridSim-code> and import it into the IDE.
 
-4) run the test suite file under the <test> folder to make sure all tests are passed, which means the development environment has been properly set up.
+4) run the test suite file under the "edu.asu.hybridSim.test" package to make sure all tests are passed, which means the development environment has been properly set up.
 
 
 ##Core classes:
