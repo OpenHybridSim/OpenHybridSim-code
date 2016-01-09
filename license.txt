@@ -1,3 +1,20 @@
+The code in OpenHybridSim is distributed under the 3-clause BSD license
+below. The case files distributed with OpenHybridSim are not covered
+by the BSD license. In most cases, the data has either been included
+with permission or has been converted from data available from a
+public source.
+
+If your research and/or publication has partially or fully 
+derived from the use of OpenHybridSim, please explicitly acknowledge
+that fact by citing:
+
+  Qiuhua Huang, Vijay Vittal. “Application of Electromagnetic Transient-
+  Transient Stability Hybrid Simulation to FIDVR Study.” IEEE Trans. on
+  Power Systems, (early access), 2015
+
+The following is the official license notice:
+
+-------------------------------------------------------------------------
 Copyright (c) 2016, Qiuhua Huang
 All rights reserved.
 
