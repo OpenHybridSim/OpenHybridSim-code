@@ -114,7 +114,7 @@ public class HybidSimSubNetworkHelper {
 			DFS(startBus.getId());
 			 */
 			for( String busId:this.boundaryBusIdList){
-				if(!this.net.getBus(busId).isVisited()){
+				if(!this.net.getBus(busId).isBooleanFlag()){
 					DFS(busId);
 				}
 			}
@@ -137,12 +137,12 @@ public class HybidSimSubNetworkHelper {
 				isToBus = bra.getFromBus().getId().equals(busId);
 				String nextBusId = isToBus ? bra.getToBus().getId() : bra.getFromBus().getId();
 
-				if (!bra.isVisited() && (onlyActiveBranch? bra.isActive():true)) { // fromBusId-->buId
+				if (!bra.isBooleanFlag() && (onlyActiveBranch? bra.isActive():true)) { // fromBusId-->buId
 					
 					// update the visit state
-					this.net.getBus(nextBusId).setVisited(true);
+					this.net.getBus(nextBusId).setBooleanFlag(true);
 					
-					bra.setVisited(true);
+					bra.setBooleanFlag(true);
 					
 					// the lines connecting boundary buses will be excluded from the internal network branch list
 					if(boundaryBranchAsExternal){
