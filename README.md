@@ -36,7 +36,7 @@ The IEEE9_HybridSim_Test.java class provide concret and different levels of appl
 
 ## References
 If you use or reference this tool for your work, please cite the following papers:
-
+```
 @ARTICLE{huang2016hyridsimFIDVR,
   author={Q. {Huang} and V. {Vittal}},
   journal={IEEE Transactions on Power Systems}, 
@@ -45,7 +45,8 @@ If you use or reference this tool for your work, please cite the following paper
   volume={31},
   number={4},
   pages={2634-2646},}
-  
+ ```
+ ```
  @inproceedings{huang2016openhybridsim,
   title={OpenHybridSim: An open source tool for EMT and phasor domain hybrid simulation},
   author={Huang, Qiuhua and Vittal, Vijay},
@@ -54,6 +55,7 @@ If you use or reference this tool for your work, please cite the following paper
   year={2016},
   organization={IEEE}
 }
+```
 
 ## Report issue or any development question
 Please contact the developer at qhuang24 AT ASU DOT EDU 
